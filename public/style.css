@@ -1,0 +1,326 @@
+#mainbackground {
+  background-image: url("Background1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+}
+
+.studentdisplay {
+  margin: 20px;
+  border-radius: 15px;
+}
+.studentdisplay img {
+  margin: 20px;
+  border-radius: 15px;
+}
+.studentClass {
+  width: 33%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin: 25px;
+}
+
+/* individual display page */
+.studentDisplayC {
+  padding: 15px;
+  background: rgba(237, 235, 235, 0.7);
+  border-radius: 15px;
+  margin: 10px;
+  box-shadow: 8px 8px 12px #b66060;
+  width: 30%;
+}
+.studentDisplayC img {
+  border-radius: 25px;
+}
+.studentDisplayS img {
+  border-radius: 25px;
+}
+.studentDisplayS {
+  padding: 15px;
+  background: rgba(237, 235, 235, 0.7);
+  border-radius: 15px;
+  margin: 10px;
+  box-shadow: 8px 8px 12px #b66060;
+  width: 40%;
+}
+.leftouterringS {
+  width: 70%;
+  align-items: start;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 25px;
+  background: rgba(231, 231, 231, 0.2);
+  justify-content: space-evenly;
+}
+.ringcontainerS {
+  display: flex;
+  justify-content: space-between;
+}
+.lowerlowerring {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.upperlowerring {
+  text-align: center;
+}
+
+.leftUpperring {
+  padding: 25px;
+  width: 40%;
+}
+.leftUpperring img {
+  border-radius: 25px;
+  box-shadow: 6px 6px 6px #0d0fa3;
+}
+.rightUpperring {
+  padding: 20px;
+  width: 60%;
+}
+.upperring {
+  margin: 25px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  background: rgba(245, 245, 245, 0.8);
+  box-shadow: 12px 12px 12px #0d0fa3;
+}
+.lowerring {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  border-radius: 25px;
+  background: rgba(245, 245, 245, 0.8);
+  box-shadow: 12px 12px 12px #0d0fa3;
+}
+.leftouterring {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+.rightouterring {
+  width: 30%;
+}
+.ringcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* campus/student mainpage display */
+
+.description_box {
+  width: 250px;
+  height: 150px;
+}
+.applicationnavBar {
+  width: 92%;
+  height: 400px;
+  margin-top: 20px;
+  background: rgba(245, 245, 245, 0.8);
+  color: #3d4883;
+  justify-content: center;
+  box-shadow: 12px 12px 12px #0d0fa3;
+}
+.applicationnavBarUpdate {
+  width: 92%;
+  height: 400px;
+  margin-top: 180px;
+  background: rgba(245, 245, 245, 0.8);
+  color: #3d4883;
+  justify-content: center;
+  box-shadow: 12px 12px 12px #0d0fa3;
+}
+.applicationnavBar form {
+  margin: 20px;
+  align-items: end;
+}
+
+.applicationnavBar button {
+  float: none;
+  color: rgb(225, 82, 82);
+  margin-top: 24px;
+  padding: 12px 16px;
+  border: none;
+  background-color: none;
+}
+.applicationnavBar button:hover {
+  background-color: #ddd;
+}
+
+.searchnavBar {
+  width: 92%;
+  height: 120px;
+  margin-top: 70px;
+  background: rgba(245, 245, 245, 0.8);
+  color: #3d4883;
+  justify-content: center;
+  box-shadow: 12px 12px 12px #612d2d;
+}
+
+.searchnavBar button {
+  float: none;
+  color: rgb(225, 82, 82);
+  padding: 12px 16px;
+  border: none;
+  background-color: none;
+}
+.searchnavBar button:hover {
+  background-color: #ddd;
+}
+
+.filternavbar {
+  width: 92%;
+  margin-top: 120px;
+  background: rgba(245, 245, 245, 0.8);
+  color: #3d4883;
+  justify-content: center;
+  box-shadow: 8px 8px 12px #b66060;
+}
+.campusesstudent_mainpage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.campusesstudent_demographics {
+  width: 60%;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  border-radius: 25px;
+  /* background: rgba(231, 231, 231, 0.4); */
+  justify-content: space-evenly;
+}
+.campusesstudent_forms {
+  width: 40%;
+  margin: 20px;
+  border-radius: 25px;
+}
+.campusesstudent_demographics_items {
+  padding: 15px;
+  background: rgba(237, 235, 235, 0.7);
+  border-radius: 15px;
+  margin: 15px;
+  box-shadow: 8px 8px 12px #b66060;
+}
+.campusesstudent_demographics_items img {
+  border-radius: 25px;
+}
+.campusesstudent_demographics_itemsinfo {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #3d4883;
+  text-shadow: 4px 4px 8px #000000;
+}
+.campusesstudent_demographics_itemsinfo h3 {
+  width: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+}
+
+/* homepage text */
+#homepageWhitespace {
+  height: 30vh;
+}
+#homepagecontent_container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+#homepagecontent {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: rgba(216, 206, 206, 0.7);
+  margin: 50px;
+  width: 75vh;
+  padding: 25px;
+  border-radius: 15px;
+  color: #e54a4a;
+  font-style: italic;
+}
+
+/* main nav bar drop down  */
+nav {
+  align-items: center;
+  padding: 50px;
+  border-radius: 25px;
+  background-color: #e9f2f5;
+  opacity: 0.9;
+  color: #e54a4a;
+  display: flex;
+  height: 50px;
+  padding: 10px;
+  justify-content: space-between;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#nav_intro {
+  justify-content: center;
+  font-size: large;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.navbar {
+  margin: 10 10 10 10;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: rgb(225, 82, 82);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content button {
+  float: none;
+  color: rgb(225, 82, 82);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border: none;
+  outline: none;
+}
+.dropdown-content button:hover {
+  background-color: #ddd;
+}
