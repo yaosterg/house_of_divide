@@ -79,6 +79,6 @@
 
 <!-- Contact -->
 
-## :handshake: Connect with Us!
+## :handshake: Connect with Me!
 
-<a href="https://www.linkedin.com/in/yaozguan/">Yao Guan</a> |
+<a href="https://www.linkedin.com/in/yaozguan/">Yao Guan</a>
