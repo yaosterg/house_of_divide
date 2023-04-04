@@ -1,42 +1,84 @@
-# Junior Phase Final Project
+<div align="center">
 
-## Getting started
+   <!-- <img src="https://i.imgur.com/vad5L2s.png" alt="logo" width="10%" height="10%" /> -->
+  <h1>Welcome to House of Divide</h1>
+  
+  By: <a href="https://github.com/yaosterg">Yao Guan</a> 
+  
+  <p>
+        House of Divide is an fullstack website that incorporates both student and campus information. By establishing database relationships between the student and campus models, the platform can present relevant data on the front end. Additionally, House of Divide administrators are empowered to create, modify, or remove campus and student information.
+  </p>
+  
+<h4>
+    <a href="https://github.com/yaosterg/house_of_divide.git"> Code </a>
+      <span> · </span>
+    <a href="https://houseofdividee.vercel.app/"> Demo </a>
+  </h4>
+</div>
 
-1. Fork and clone this repo.
-2. `npm install`.
-3. `npm run start`
-4. name your database acme_schools_db
-## Details
+<br />
 
-### The Premise
+<!-- About the Project -->
 
-You are the CTO of a company which manages Campuses and Enrollments. Create a RESTful web platform that allows you to manage your students and campuses. Before getting started, please carefully review the expectations as outlined below.
+## :star2: About the Project
 
-### The tools
+<!-- Screenshots -->
 
-For this project, you must use Express to handle HTTP requests and Sequelize to interface with your database. Likewise, you must use React, Redux and React-Redux on the front-end. This means that all important state (i.e. students and campuses) must be managed by the Redux store (unimportant state, like form data, may be managed by stateful React components). Components that display student/campus data should therefore be connected to the Redux store. 
+### :camera: Screenshots
 
-- other client side libraries you will need
-- redux
-- react-redux
-- react-router-dom@6
-- axios
+<div> 
+  <img src="https://i.imgur.com/DWs1xgF.png alt="homepage screenshot" width="700" height="auto"" />
+</div>
 
-### Requirements + Rubric (see rubric file)
+<div> 
+  <img src="https://i.imgur.com/bDTAiqy.png alt="homepage screenshot" width="700" height="auto"" />
+</div>
+<div> 
+  <img src="https://i.imgur.com/mDD1sLh.png alt="Allproducts screenshot" width="700" height="auto"" />
+</div>
+<div> 
+  <img src="https://i.imgur.com/4G917Oe.jpg alt="singleproduct screenshot" width="700" height="auto"" />
+</div>
 
-## Requirements
+<!-- TechStack -->
 
-- the application needs to load without errors (blank screens are not acceptable)
-- do not copy and paste previous code!
-- you will have ample time to complete project, NO EXTENSIONS WILL BE GIVEN
-- build incrementally! 
-- if you have an error, fix the error, before attempting to **add** functionality
+### :space_invader: Tech Stack
 
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-### Views and Functionality
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://nodejs.org/en">Node</a></li>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
+  </ul>
+</details>
 
-You can determine views and functionality from the requirements and wireframes shown below.
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://sequelize.org/">Sequelize</a></li>
+  </ul>
+</details>
 
-<img src='https://github.com/FullstackAcademy/jpfp-template-V2-a/blob/main/wireframes.png' />
+<!-- Features -->
 
+### :dart: Features
 
+- Users can browse, filter, and select campus/student, view details, and change campus/student info or relationship.
+- Users remove campuses/students.
+
+<!-- Run Locally -->
+
+<!-- Contact -->
+
+## :handshake: Connect with Us!
+
+<a href="https://www.linkedin.com/in/yaozguan/">Yao Guan</a> |
